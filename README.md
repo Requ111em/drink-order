@@ -39,14 +39,12 @@
 
 -   3.1 请使用idea打开Java工程，自动会安装依赖
 -   3.2 创建数据库且导入工程目录下sql/yixiang-drink.sql 文件
--   3.3 找到项目下的yshop-server 的yml,修改数据库相关信息和redis相关信息，如图：
-     ![输入图片说明](assets/image.png)
+-   3.3 找到项目下的yshop-server 的yml,修改数据库相关信息和redis相关信息
 -   3.4 工程下输入
     ``` 
     mvn clean install package '-Dmaven.test.skip=true
     ```
--   3.5 启动项目，如图
-    ![输入图片说明](assets/1702544439568.jpg)
+-   3.5 启动项目
 
 ##### 4、后台vue启动
 
@@ -54,8 +52,7 @@
     ``` 
     pnpm install
     ```
- - 4.2 配置api如图
- ![输入图片说明](assets/1702544756749.jpg)
+ - 4.2 配置api
  - 4.3 本地启动:
     ```
      npm run dev
@@ -65,35 +62,12 @@
  
   - 5.1 hbuilder导入uniapp项目，
   - 5.2 配置api
-   ![输入图片说明](assets/WX20231214-171211@2x.png)
   - 5.3 配置小程序
-   ![输入图片说明](assets/WX20231214-171416@2x.png)
   - 5.4 运行小程序
-    ![输入图片说明](assets/WX20231214-171514@2x.png)
   - 5.5 运行h5
-   
-    ![输入图片说明](assets/1702545370856.jpg)
+  
 -
 
-
-
-## 小程序截图
-
-| ![输入图片说明](assets/1000.jpg)| ![输入图片说明](assets/%E5%BE%AE%E4%BF%A1%E5%9B%BE%E7%89%87_20260309235851_552_6.png) |
-|---|---|
-| ![输入图片说明](assets/200000.jpg)  |  ![输入图片说明](assets/%E5%BE%AE%E4%BF%A1%E5%9B%BE%E7%89%87_20260309235857_557_6.png) |
-| ![输入图片说明](assets/10003.jpg)  | ![输入图片说明](assets/%E5%BE%AE%E4%BF%A1%E5%9B%BE%E7%89%87_20260309235856_556_6.png) | 
-
-## 后台截图
-
-| ![输入图片说明](assets/3000.png) | 
-|---|---|
-| ![输入图片说明](assets/3001.png)  | 
-| ![输入图片说明](assets/3002.png)  | 
-| ![输入图片说明](assets/3003.png)  | ![输入图片说明](assets/3004.png) |
-![输入图片说明](assets/%E5%BE%AE%E4%BF%A1%E5%9B%BE%E7%89%87_20260310000501_559_6.png)
-![输入图片说明](assets/%E5%BE%AE%E4%BF%A1%E5%9B%BE%E7%89%87_20260310001028_564_6.png)
-![输入图片说明](assets/%E5%BE%AE%E4%BF%A1%E5%9B%BE%E7%89%87_20260310001057_565_6.png)
 
 
 ## 技术栈
